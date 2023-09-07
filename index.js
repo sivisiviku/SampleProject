@@ -5,6 +5,6 @@ app.get('/', function(req, res){
    res.send("Hello world!");
 });
 
-app.listen(3210, 'localhost', () => {
+app.listen(3210, () => {
     console.log('Running on port 3210')
 });
